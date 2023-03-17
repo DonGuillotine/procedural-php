@@ -8,33 +8,33 @@
     }
     */
 
-    // $time = date("H");
+    $time = date("H");
 
-    // if ($time < "20"){
-    //     echo "Have a great day!";
-    // }
+    if ($time < "20"){
+        echo "Have a great day!";
+    }
 
 
-    // $time_two = date("H");
+    $time_two = date("H");
 
-    // if($time_two > "20"){
-    //     echo "Have a good day!";
-    // }
-    // else{
-    //     echo "Have a good night!";
-    // }
+    if($time_two > "20"){
+        echo "Have a good day!";
+    }
+    else{
+        echo "Have a good night!";
+    }
 
-    // $time_three = date("H");
+    $time_three = date("H");
 
-    // if($time_three < "10"){
-    //     echo "Good Morning";
-    // }
-    // elseif($time_three < "20"){
-    //     echo "Have a great day!";
-    // }
-    // else{
-    //     echo "Good Night!";
-    // }
+    if($time_three < "10"){
+        echo "Good Morning";
+    }
+    elseif($time_three < "20"){
+        echo "Have a great day!";
+    }
+    else{
+        echo "Good Night!";
+    }
 
     // Switch Statement
     $favouriteClub = "Barcelona";
