@@ -24,16 +24,37 @@
     //     echo "Have a good night!";
     // }
 
-    $time_three = date("H");
+    // $time_three = date("H");
 
-    if($time_three < "10"){
-        echo "Good Morning";
-    }
-    elseif($time_three < "20"){
-        echo "Have a great day!";
-    }
-    else{
-        echo "Good Night!";
+    // if($time_three < "10"){
+    //     echo "Good Morning";
+    // }
+    // elseif($time_three < "20"){
+    //     echo "Have a great day!";
+    // }
+    // else{
+    //     echo "Good Night!";
+    // }
+
+    // Switch Statement
+    $favouriteClub = "Barcelona";
+
+
+    switch($favouriteClub){
+        case "Madrid":
+            echo "Your Favourite Club is Madrid";
+            break;
+        case "Arsenal":
+            echo "Your Favourite Club is Arsenal";
+            break;
+        case "Barcelona":
+            echo "Your Favourite Club is Barcelona";
+            break;
+        case "Bayern":
+            echo "Your Favourite Club is Bayern";
+            break;
+        default:
+            echo "You are not a Football Fan!";
     }
 
 ?>
