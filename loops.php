@@ -36,8 +36,17 @@
 
     $money = 1;
 
+    // The condition is tested after executing the statements within the loop
     do{
         echo "I have $money naira <br>";
         $money++;
     } while($money <= 5);
+
+
+    $alcohol = 6;
+
+    do{
+        echo "I have drank $alcohol bottles <br>";
+        $alcohol++;
+    } while($alcohol <= 5);
 ?>
