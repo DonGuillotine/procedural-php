@@ -59,15 +59,28 @@
         }
     */
 
-    for($age = 0; $age <= 10; $age++){
-        echo "Your age is $age <br>";
-    }
+    // for($age = 0; $age <= 10; $age++){
+    //     echo "Your age is $age <br>";
+    // }
 
     // Increase by 10
-    for($age = 0; $age <= 100; $age+=10){
-    echo "Your age is $age <br>";
-    }
+    // for($age = 0; $age <= 100; $age+=10){
+    // echo "Your age is $age <br>";
+    // }
 
+
+
+    /* foreach Loop
+        *Only works on arrays
+        *It is used to loop through each key/value pair in an array
+    */
+    
+    $colors = array("red", "green", "blue", "yellow");
+
+
+    foreach($colors as $person){
+        echo "$person <br>";
+    }
 
 
 ?>
