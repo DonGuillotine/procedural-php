@@ -34,19 +34,40 @@
     */
 
 
-    $money = 1;
+    // $money = 1;
 
     // The condition is tested after executing the statements within the loop
-    do{
-        echo "I have $money naira <br>";
-        $money++;
-    } while($money <= 5);
+    // do{
+    //     echo "I have $money naira <br>";
+    //     $money++;
+    // } while($money <= 5);
 
 
-    $alcohol = 6;
+    // $alcohol = 6;
 
-    do{
-        echo "I have drank $alcohol bottles <br>";
-        $alcohol++;
-    } while($alcohol <= 5);
+    // do{
+    //     echo "I have drank $alcohol bottles <br>";
+    //     $alcohol++;
+    // } while($alcohol <= 5);
+
+
+    /* for Loop
+        Loops through a block of code a specified number of times
+
+        for(counter; condition; increment counter){
+            code to executed
+        }
+    */
+
+    for($age = 0; $age <= 10; $age++){
+        echo "Your age is $age <br>";
+    }
+
+    // Increase by 10
+    for($age = 0; $age <= 100; $age+=10){
+    echo "Your age is $age <br>";
+    }
+
+
+
 ?>
