@@ -1,1 +1,3 @@
-Create a simple Login System: Create a login system that uses conditional statements to check whether a user has entered valid login credentials. Use a loop to ask the user for their login details until they enter valid ones. Use a ternary operator to display a message indicating whether the login was successful or not.
+Create a simple Login System: 
+
+1. Create a login system that uses conditional statements to check whether a user has entered valid login credentials. Use a loop to ask the user for their login details until they enter valid ones. Use a ternary operator to display a message indicating whether the login was successful or not.
