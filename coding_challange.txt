@@ -8,4 +8,4 @@ Create a simple Login System:
 
 
 Bonus challenge 💪🏾
- Temperature Converter: 
+ Temperature Converter:  Create a program that converts temperatures between Celsius and Fahrenheit. Use a conditional statement to check whether the user has selected Celsius or Fahrenheit as the input temperature unit. Use a loop to allow the user to convert multiple temperatures. Use a ternary operator to display the converted temperature.
