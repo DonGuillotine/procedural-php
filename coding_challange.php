@@ -33,7 +33,7 @@ while (!$success) {
 	exit();
 }
 
-// If login was successful, display success message
+// If login was successful, display success message with ternary operator
 echo $message.'<br>';
 echo $success ? 'Welcome, '.$valid_username.'!' : '';
 ?>
