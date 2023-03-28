@@ -1,6 +1,6 @@
 <?php
 // Define valid login credentials
-$valid_username = 'myusername';
+$valid_username = 'Donald';
 $valid_password = 'mypassword';
 
 // Check if form is submitted
