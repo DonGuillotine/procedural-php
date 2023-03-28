@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$password = $_POST['password'];
 
 	// Check if input values match valid credentials
-    // === is known as the identical operato
+    // === is known as the identical operator
 	if ($username === $valid_username && $password === $valid_password) {
 		// Login successful
 		$message = 'Login successful!';
