@@ -11,4 +11,26 @@
     }
 
     writeMessage();
+
+    echo "<br>";
+
+    // Function Arguments
+    function familyName($first_name){
+        echo "$first_name Okeke";
+    }
+
+    familyName("Donald");
+    echo "<br>";
+    familyName("Ebuka");
+    echo "<br>";
+    familyName("GodsLove");
+
+    function currency($name, $country){
+        echo "$name is used in $country";
+    }
+
+    echo "<br>";
+    currency("Pounds", "United Kindgdom");
+    echo "<br>";
+    currency("Naira", "Nigeria");
 ?>
