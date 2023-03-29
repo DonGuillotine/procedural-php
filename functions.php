@@ -89,4 +89,15 @@
     }
     echo "<br>";
     echo divideNumbers(15, 3);
+
+
+    // PHP Passing Arguments by Reference
+
+    function addition(&$value){
+        $value = $value + 5;
+    }
+
+    $number = 2;
+    addition($number);
+    echo $number;
 ?>
