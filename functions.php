@@ -33,4 +33,20 @@
     currency("Pounds", "United Kindgdom");
     echo "<br>";
     currency("Naira", "Nigeria");
+
+
+
+    /* PHP is a Loosely Typed Language
+
+        * PHP automatically associates a data type to a variable depending on it's value
+        $name = 98.7
+
+        * We can add a string to an integer without an error
+
+        * strict declaration it show a Fatal Error if the data type mismatches
+    */
+
+
+    function
+
 ?>
