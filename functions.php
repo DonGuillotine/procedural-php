@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
     // A function is a block of statements that can be used repeatedly in a program
 
     // Will not execute when a page loads
@@ -47,6 +47,11 @@
     */
 
 
-    function
+    function addNumbers(int $a, int $b){
+        return $a + $b;
+    }
+
+    echo "<br>";
+    echo addNumbers(5, 5);
 
 ?>
