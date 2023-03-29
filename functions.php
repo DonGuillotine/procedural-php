@@ -74,4 +74,19 @@
 
     echo "<br>";
     echo multiplyNumbers(12, 13);
+
+
+    // PHP Return Type Declarations
+
+    function divideNumbers(float $a, float $b) : float {
+        return $a / $b;
+    }
+    echo "<br>";
+    echo divideNumbers(1.4, 5.3);
+
+    function moduloNumbers(int $a, int $b) : int {
+        return $a % $b;
+    }
+    echo "<br>";
+    echo divideNumbers(15, 3);
 ?>
