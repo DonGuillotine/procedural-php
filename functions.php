@@ -64,4 +64,14 @@
     setHeight();
     echo "<br>";
     setHeight(200);
+
+    // PHP Returnung Values
+
+    function multiplyNumbers(int $x, int $y){
+        $result = $x * $y;
+        return $result;
+    }
+
+    echo "<br>";
+    echo multiplyNumbers(12, 13);
 ?>
