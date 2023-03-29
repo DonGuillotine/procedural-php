@@ -54,4 +54,14 @@
     echo "<br>";
     echo addNumbers(5, 5);
 
+    // PHP Default Argument Value
+
+    function setHeight(int $minHeight = 50){
+        echo "The Height is: $minHeight";
+    }
+
+    echo "<br>";
+    setHeight();
+    echo "<br>";
+    setHeight(200);
 ?>
