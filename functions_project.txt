@@ -1,0 +1,4 @@
+Here is your coding challange:
+
+Password Generator: Create a function that generates a random password of a specified length. The function should be able to generate passwords containing uppercase and lowercase letters, numbers, and special characters.
+
