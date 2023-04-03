@@ -48,7 +48,7 @@
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label>Guess:</label>
 		<input type="number" name="guess">
-        <input type="submit" value="Submit">
+        <input type="submit" name="submit" value="Submit">
         <?php if (!empty($feedback)) { ?>
             <p><?php echo $feedback; ?></p>
         <?php } ?>
