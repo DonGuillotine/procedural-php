@@ -19,4 +19,6 @@
             echo "Congratulations! You guessed the number.";
         }
     }
+
+    $number = generateRandomNumber();
 ?>
