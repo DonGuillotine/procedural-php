@@ -21,4 +21,14 @@
     }
 
     $number = generateRandomNumber();
+
+    if (isset($_POST['submit'])) {
+        $guess = $_POST['guess'];
+        if (validateUserInput($guess)) {
+            // Provide feedback
+            provideFeedback($guess, $number);
+        } else {
+            echo "Please enter a valid number between 1 and 100.";
+        }
+    }
 ?>
