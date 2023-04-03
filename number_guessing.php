@@ -43,8 +43,10 @@
     <title>Guess Me 😭</title>
 </head>
 <body>
-    <form>
+    <form method="POST">
         <label>Username:</label>
+		<input type="number" name="guess">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
