@@ -10,6 +10,7 @@
     }
 
     function provideFeedback($guess, $number) {
+        // Game Logic with conditional statements
         if ($guess < $number) {
             echo "Too low!";
         } elseif ($guess > $number) {
