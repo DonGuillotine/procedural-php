@@ -43,7 +43,7 @@
     <title>Guess Me 😭</title>
 </head>
 <body>
-    <form method="POST">
+    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label>Username:</label>
 		<input type="number" name="guess">
         <input type="submit" value="Submit">
