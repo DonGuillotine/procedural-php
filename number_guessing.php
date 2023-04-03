@@ -50,7 +50,7 @@
 		<input type="number" name="guess">
         <input type="submit" name="submit" value="Submit">
         <?php if (!empty($feedback)) { ?>
-            <p><?php echo $feedback; ?></p>
+            <p><?php echo $feedback . $number; ?></p>
         <?php } ?>
     </form>
 </body>
