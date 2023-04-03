@@ -22,6 +22,7 @@
 
     $number = generateRandomNumber();
 
+    // Get user input and validate it
     if (isset($_POST['submit'])) {
         $guess = $_POST['guess'];
         if (validateUserInput($guess)) {
