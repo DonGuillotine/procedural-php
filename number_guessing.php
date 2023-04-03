@@ -12,24 +12,25 @@
     function provideFeedback($guess, $number) {
         // Game Logic with conditional statements
         if ($guess < $number) {
-            echo "Too low!";
+            return "Too low!";
         } elseif ($guess > $number) {
-            echo "Too high!";
+            return "Too high!";
         } else {
-            echo "Congratulations! You guessed the number.";
+            return "Congratulations! You guessed the number.";
         }
     }
 
     $number = generateRandomNumber();
 
     // Get user input and validate it
+    $feedback = '';
     if (isset($_POST['submit'])) {
         $guess = $_POST['guess'];
         if (validateUserInput($guess)) {
             // Provide feedback
-            provideFeedback($guess, $number);
+            $feedback = provideFeedback($guess, $number);
         } else {
-            echo "Please enter a valid number between 1 and 100.";
+            $feedback = "Please enter a valid number between 1 and 100.";
         }
     }
 ?>
@@ -43,10 +44,14 @@
     <title>Guess Me 😭</title>
 </head>
 <body>
+    <p><?php ?></p>
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label>Username:</label>
+        <label>Guess:</label>
 		<input type="number" name="guess">
         <input type="submit" value="Submit">
+        <?php if (!empty($feedback)) { ?>
+            <p><?php echo $feedback; ?></p>
+        <?php } ?>
     </form>
 </body>
 </html>
