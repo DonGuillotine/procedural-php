@@ -39,4 +39,9 @@
     echo "<br>";
     echo "Micheal is " . $age['Micheal'] . " Age";
     echo "<br>";
+
+    foreach($age as $x => $x_value){
+        echo "Key =" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
 ?>
