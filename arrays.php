@@ -33,10 +33,10 @@
 
     $age = array("Godslove"=>"23", "Chukwuebuka"=>"20", "Micheal"=>"25");
     echo "<br>";
-    echo "Godslove is " . $age['Godslove'] . "Age";
+    echo "Godslove is " . $age['Godslove'] . " Age";
     echo "<br>";
-    echo "Chukwuebuka is " . $age['Chukwuebuka'] . "Age";
+    echo "Chukwuebuka is " . $age['Chukwuebuka'] . " Age";
     echo "<br>";
-    echo "Micheal is " . $age['Micheal'] . "Age";
+    echo "Micheal is " . $age['Micheal'] . " Age";
     echo "<br>";
 ?>
