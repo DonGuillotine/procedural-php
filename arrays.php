@@ -20,5 +20,12 @@
     // Indexed Arrays
 
     $students = array("Godslove", "Chukwuebuka", "Micheal");
-    echo "<br>These are my students: " . $students[0] . ", " . $students[1] . ", and " . $students[2];
+    echo "<br>These are my students: " . $students[0] . ", " . $students[1] . ", and " . $students[2] . "<br>";
+
+    $students_length = count($students);
+
+    for($i = 0; $i < $students_length; $i++){
+        echo $students[$i];
+        echo "<br>";
+    }
 ?>
