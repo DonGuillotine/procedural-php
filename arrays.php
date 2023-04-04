@@ -44,4 +44,24 @@
         echo "Key =" . $x . ", Value=" . $x_value;
         echo "<br>";
     }
+
+    // Multidimensional Arrays
+
+    /*  For a two dimensional array you need two indices to select an element.
+    For a three dimensional array you need three indices to select an element
+
+    */
+
+    $food = array(
+        array("Yam", 200, 100),
+        array("Rice", 283, 923),
+        array("Potatoe", 364, 837),
+        array("Chicken", 264, 281),
+    );
+
+    echo $food[0][0].": In stock: ".$food[0][1].", sold: ".$food[0][2].".<br>";
+    echo $food[1][0].": In stock: ".$food[1][1].", sold: ".$food[1][2].".<br>";
+    echo $food[2][0].": In stock: ".$food[2][1].", sold: ".$food[2][2].".<br>";
+    echo $food[3][0].": In stock: ".$food[3][1].", sold: ".$food[3][2].".<br>";
+    
 ?>
