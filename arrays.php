@@ -64,4 +64,19 @@
     echo $food[2][0].": In stock: ".$food[2][1].", sold: ".$food[2][2].".<br>";
     echo $food[3][0].": In stock: ".$food[3][1].", sold: ".$food[3][2].".<br>";
     
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+
+    for($row = 0; $row < 4; $row++){
+        echo "<p><b>Row number $row</b></p>";
+        echo "<ul>";
+            for($col = 0; $col < 3; $col++){
+                echo "<li>".$food[$row][$col]."</li>";
+            }
+        echo "</ul>";
+    }
 ?>
